@@ -23,7 +23,7 @@ class PalindromesTest {
   };
 
   @Test
-  void computeRecursive(){
+  void testRecursive(){
     for (int i = 0; i < inputValues.length; i++){
       String input = inputValues[i];
       boolean expected = expectedValues[i];
